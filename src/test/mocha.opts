@@ -1,0 +1,5 @@
+--require ts-node/register/transpile-only
+--recursive
+--inspect
+--debug-brk
+--timeout 5000
