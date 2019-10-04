@@ -11,15 +11,15 @@ describe('PhoneRepository', () => {
                 { type: 'normal',
                     serial: '123-456-789',
                     color: 'red',
-                    metadata: 'some metadata' },
+                    metadata: '7e619f7b49e9b5eaedfd798ffa87e494d78128a8' },
                 { type: 'smartphone',
                     serial: '456-123-789',
                     color: 'blue',
-                    metadata: 'some metadata2' },
+                    metadata: '2fedbb8e593c09cc123907b895866a17720bd42e' },
                 { type: 'smartphone',
                     serial: '789-456-789',
                     color: 'green',
-                    metadata: 'some metadata3' }
+                    metadata: 'cd82e9aefa3ef797a4d3b7d2cfd0ae7c27bfe701' }
             ]
         };
         phoneRepository = new PhoneRepository_1.default();
